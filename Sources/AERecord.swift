@@ -29,7 +29,7 @@ import CoreData
 /**
     This class is facade for accessing shared instance of `AEStack` (private class which is all about the Core Data Stack).
 */
-public class AERecord {
+public class AERecord:NSObject {
     
     // MARK: Properties
     
